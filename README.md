@@ -12,7 +12,7 @@ This cool snippets will help you to quickly define your own components related t
 ext install eui-snippets
 ```
 
-[![Emerald UI](https://raw.githubusercontent.com/clouby/eui-snippets/main/images/demo.gif)](###)
+[![Emerald UI](https://raw.githubusercontent.com/clouby/eui-snippets/main/images/preview.gif)](###)
 
 ## Snippets
 

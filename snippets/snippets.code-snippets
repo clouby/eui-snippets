@@ -1,0 +1,453 @@
+{
+  "Button": {
+    "prefix": "eui-button",
+    "body": [
+      "<Button color=\"${1|default,primary,info,warning,danger,success|}\" shape=\"${2|classic,flat,outline|}\" size=\"${3|xs,sm,lg|}\">",
+      "   $4",
+      "</Button>$0"
+    ]
+  },
+  "Alert": {
+    "prefix": "eui-alert",
+    "body": [
+      "<Alert color=\"${1|info,warning,danger,success|}\" >\r",
+      "   $2\r",
+      "</Alert>$0",
+      ""
+    ]
+  },
+  "Animation": {
+    "prefix": "eui-animation",
+    "body": [
+      "<Animation unmount={${1:unmount}} >\r",
+      "   $2\r",
+      "</Animation>$0",
+      ""
+    ]
+  },
+  "AppCard": {
+    "prefix": "eui-app-card",
+    "body": [
+      "<AppCard \r",
+      "   color=\"${1|transparent|}\" \r",
+      "   caption=\"${2:Add caption}\" \r",
+      "   image={${3:imageSrc}} \r",
+      "/>$0",
+      ""
+    ]
+  },
+  "Avatar": {
+    "prefix": "eui-avatar",
+    "body": [
+      "<Avatar",
+      "   size=\"${1|xs,sm,md,lg|}\"",
+      "   title=\"${2:U}\"",
+      "/>$0",
+      ""
+    ]
+  },
+  "Card": {
+    "prefix": "eui-card",
+    "body": [
+      "<Card>\r",
+      "   <Card.Header color=\"${1|info,warning,danger,success|}\">",
+      "       <h1 className=\"eui-card-header-title\">$2</h1>",
+      "   </Card.Header>",
+      "   <div>",
+      "       <h2 className=\"eui-card-title\">$3</h2>",
+      "       <p>",
+      "           $4",
+      "       </p>",
+      "   </div>",
+      "</Card>$0",
+      ""
+    ]
+  },
+  "Carousel": {
+    "prefix": "eui-carousel",
+    "body": [
+      "<Carousel innerMargin={${1:number}}>\r",
+      "   <Carousel.Slide>",
+      "       $2",
+      "   </Carousel.Slide>",
+      "</Carousel>$0",
+      ""
+    ]
+  },
+  "Checkbox": {
+    "prefix": "eui-checkbox",
+    "body": ["<Checkbox", "   label=\"${1:Add text}\"", "/>$0"]
+  },
+  "Chip": {
+    "prefix": "eui-chip",
+    "body": ["<Chip>", "   <span>$1</span>", "</Chip>$0"]
+  },
+  "Collapse": {
+    "prefix": "eui-collapse",
+    "body": ["<Collapse expanded={${1:expanded}}>", "   $2", "</Collapse>$0"]
+  },
+  "DatePicker": {
+    "prefix": "eui-date-picker",
+    "body": [
+      "<DatePicker",
+      "   label=\"${1:Label}\"",
+      "   dateFormat=\"${2:P}\"",
+      "   timeFormat=\"${3:p}\"",
+      "   $4",
+      "/>$0"
+    ]
+  },
+  "Dropdown": {
+    "prefix": "eui-dropdown",
+    "body": [
+      "<Dropdown>",
+      "   ${1| ,<Button>Text <span className=\"caret\"/></Button>,<FloatingActionButton icon=\"add\" />|}",
+      "   <Dropdown.Menu>",
+      "       <Dropdown.Item>$2</Dropdown.Item>",
+      "   </Dropdown.Menu>",
+      "</Dropdown>$0",
+      ""
+    ]
+  },
+  "ExpansionPanel": {
+    "prefix": "eui-expansion-panel",
+    "body": [
+      "<ExpansionPanel>",
+      "   <ExpansionPanel.Summary>",
+      "       $1",
+      "   </ExpansionPanel.Summary>",
+      "   ${2| ,<ExpansionPanel.AlternativeSummary>\r</ExpansionPanel.AlternativeSummary>|}",
+      "   <ExpansionPanel.Content>",
+      "       $3",
+      "   </ExpansionPanel.Content>",
+      "</ExpansionPanel>$0"
+    ]
+  },
+  "FileDropzone": {
+    "prefix": "eui-file-dropzone",
+    "body": [
+      "<FileDropzone",
+      "   onDrop={${2:handleDrop}",
+      "   multiple={${1:multiple}",
+      "   $3",
+      "/>$0"
+    ]
+  },
+  "FileUpload": {
+    "prefix": "eui-file-upload",
+    "body": [
+      "<FileUpload",
+      "   files={${1:files}",
+      "   url={${2:url}",
+      "   multiple={${3:multiple}",
+      "   $4",
+      "/>$0"
+    ]
+  },
+  "FloatingActionButton": {
+    "prefix": "eui-floating-action-button",
+    "body": [
+      "<FloatingActionButton",
+      "   icon=\"${1:add}\"",
+      "   color=\"${2|default,info,primary|}\"",
+      "   $3",
+      "/>$0"
+    ]
+  },
+  "FloatingActionDropdown": {
+    "prefix": "eui-floating-action-dropdown",
+    "body": [
+      "<FloatingActionDropdown${1: tooltipsAtRight}>",
+      "   <FloatingActionMenuItem title=\"$2\">",
+      "       ${3|<Icon name=\"\" />, |}",
+      "   </FloatingActionMenuItem>",
+      "</FloatingActionDropdown>$0"
+    ]
+  },
+  "HelpButton": {
+    "prefix": "eui-help-button",
+    "body": [
+      "<HelpButton icon=\"${1:help_outline}\">",
+      "   ${2:Text}",
+      "</HelpButton>$0"
+    ]
+  },
+  "HelpWidget": {
+    "prefix": "eui-help-widget",
+    "body": [
+      "<HelpWidget>",
+      "   <HelpWidget.Item title=\"${1:Help}\" subtitle=\"$2\" icon={${3:chatIcon}} />",
+      "</HelpWidget>$0"
+    ]
+  },
+  "Icon": {
+    "prefix": "eui-icon",
+    "body": ["<Icon name=\"${1:face}\" />$0"]
+  },
+  "Label": {
+    "prefix": "eui-label",
+    "body": [
+      "<Label color=\"${2|default,primary,warning,info,danger,success|}\">$1</Label>$0"
+    ]
+  },
+  "Container": {
+    "prefix": "eui-container",
+    "body": ["<Container>", "   $1", "</Container>$0"]
+  },
+  "Row": {
+    "prefix": "eui-row",
+    "body": ["<Row>", "   $1", "</Row>$0"]
+  },
+  "Col": {
+    "prefix": "eui-col",
+    "body": ["<Col ${1|xs,sm,md,lg|}={$2}>", "   $3", "</Col>$0"]
+  },
+  "Modal": {
+    "prefix": "eui-modal",
+    "body": [
+      "<Modal show={${1:show}} onHide={${2:handleHide}}>",
+      "   $3",
+      "</Modal>$0"
+    ]
+  },
+  "ModalHeader": {
+    "prefix": "eui-modal-header",
+    "body": [
+      "<Modal.Header closeButton={${1:showCloseButton}>",
+      "   $2",
+      "</Modal.Header>$0"
+    ]
+  },
+  "ModalTitle": {
+    "prefix": "eui-modal-title",
+    "body": ["<Modal.Title>$1</Modal.Title>$0"]
+  },
+  "ModalBody": {
+    "prefix": "eui-modal-body",
+    "body": ["<Modal.Body>", "   $1", "</Modal.Body>$0"]
+  },
+  "ModalFooter": {
+    "prefix": "eui-modal-footer",
+    "body": ["<Modal.Footer>", "   $1", "</Modal.Footer>$0"]
+  },
+  "MultipleSelect": {
+    "prefix": "eui-multiple-select",
+    "body": [
+      "<MultipleSelect label=\"$1\">",
+      "   <option value=\"$2\">$2</option>",
+      "</MultipleSelect>$0"
+    ]
+  },
+  "Nav": {
+    "prefix": "eui-nav",
+    "body": ["<Nav>", "   $1", "</Nav>$0"]
+  },
+  "Navbar": {
+    "prefix": "eui-navbar",
+    "body": ["<Navbar breakAt=\"${1|xs,sm,md,lg|}\" >", "   $2", "</Navbar>$0"]
+  },
+  "NavbarBrand": {
+    "prefix": "eui-navbar-brand",
+    "body": ["<Navbar.Brand>", "   $1", "</Navbar.Brand>$0"]
+  },
+  "OverlayTrigger": {
+    "prefix": "eui-overlay-trigger",
+    "body": [
+      "<OverlayTrigger placement=\"${1|top,bottom,left,right|}\" overlay={$2}>",
+      "   $3",
+      "</OverlayTrigger>$0"
+    ]
+  },
+  "PageHeader": {
+    "prefix": "eui-page-header",
+    "body": ["<PageHeader>", "   $1", "</PageHeader>$0"]
+  },
+  "Pager": {
+    "prefix": "eui-pager",
+    "body": [
+      "<Pager",
+      "   offset={${1:offset}}",
+      "   limit={${2:limit}}",
+      "   total={${3:total}}",
+      "   onPageChange={${4:handlePageChange}}",
+      "   $5",
+      "/>$0"
+    ]
+  },
+  "Panel": {
+    "prefix": "eui-panel",
+    "body": ["<Panel>", "   $1", "</Panel>$0"]
+  },
+  "PanelBody": {
+    "prefix": "eui-panel-body",
+    "body": ["<Panel.Body>", "   $1", "</Panel.Body>$0"]
+  },
+  "PanelHeading": {
+    "prefix": "eui-panel-heading",
+    "body": ["<Panel.Heading>", "   $1", "</Panel.Heading>$0"]
+  },
+  "Popover": {
+    "prefix": "eui-popover",
+    "body": [
+      "<Popover title=\"$1\" placement=\"${2|top,bottom,right,left|}\" >",
+      "   $3",
+      "</Popover>$0"
+    ]
+  },
+  "ProgressBar": {
+    "prefix": "eui-progress-bar",
+    "body": [
+      "<Progressbar progress={$1} color=\"${2|success,danger,warning,info|}\" />$0"
+    ]
+  },
+  "Radio": {
+    "prefix": "eui-radio",
+    "body": [
+      "<Radio",
+      "   label=\"${1:label}\"",
+      "   checked={${2:checked}}",
+      "   $3",
+      "/>$0"
+    ]
+  },
+  "RadioGroup": {
+    "prefix": "eui-radio-group",
+    "body": ["<RadioGroup name=\"$1\">", "   $2", "</RadioGroup>$0"]
+  },
+  "RedIndicator": {
+    "prefix": "eui-red-indicator",
+    "body": [
+      "<RedIndicator active={${1:active}}>",
+      "   $2",
+      "</RedIndicator>$0"
+    ]
+  },
+  "SearchForm": {
+    "prefix": "eui-search-form",
+    "body": [
+      "<SearchForm",
+      "   onSubmit=\"${1:handleSubmit}\"",
+      "   $2",
+      "/>$0"
+    ]
+  },
+  "ShowMore": {
+    "prefix": "eui-show-more",
+    "body": ["<ShowMore show={${1:5}}>", "   $2", "</ShowMore>$0"]
+  },
+  "SingleSelect": {
+    "prefix": "eui-single-select",
+    "body": [
+      "<SingleSelect onSelect={${1:handleSelect}}>",
+      "   $2",
+      "</SingleSelect>$0"
+    ]
+  },
+  "SkeletonLoader": {
+    "prefix": "eui-skeleton-loader",
+    "body": ["<SkeletonLoader loading={${1:loading}} />$0"]
+  },
+  "Spinner": {
+    "prefix": "eui-spinner",
+    "body": [
+      "<Spinner",
+      "   color=\"${1|default,info,warning,danger,success|}\"",
+      "   size=\"${2|md,sm,xs,lg|}\"",
+      "/>$0"
+    ]
+  },
+  "Steps": {
+    "prefix": "eui-steps",
+    "body": ["<Steps", "   step={${1:1}}", "   steps=\"${2:[]}\"", "/>$0"]
+  },
+  "StripeForm": {
+    "prefix": "eui-stripe-form",
+    "body": [
+      "<StripeForm",
+      "   apiKey={$1}",
+      "   paymentAmount={$2}",
+      "   paymentLabel={$3}",
+      "/>$0"
+    ]
+  },
+  "TabContainer": {
+    "prefix": "eui-tab-container",
+    "body": [
+      "<Tab.Container onSelect={${1:handleSelect}} defaultActiveKey=\"$2\">",
+      "   $3",
+      "</Tab.Container>$0"
+    ]
+  },
+  "TabContent": {
+    "prefix": "eui-tab-content",
+    "body": ["<Tab.Content>", "   $1", "</Tab.Content>$0"]
+  },
+  "TabPane": {
+    "prefix": "eui-tab-pane",
+    "body": ["<Tab.Pane eventKey=\"$1\">", "   $2", "</Tab.Pane>$0"]
+  },
+  "Table": {
+    "prefix": "eui-table",
+    "body": [
+      "<Table>",
+      "   <thead>",
+      "       <tr>",
+      "           <th>$1</th>",
+      "       </tr>",
+      "   </thead>",
+      "   <tbody>",
+      "       <tr>",
+      "           <td>$2</td>",
+      "       </tr>",
+      "   </tbody>",
+      "</Table>$0"
+    ]
+  },
+  "TableHeader": {
+    "prefix": "eui-table-header",
+    "body": [
+      "<TableHeader onSelect={${1:handleSelect}} sortBy=\"$2\">",
+      "   $3",
+      "</TableHeader>$0"
+    ]
+  },
+  "TableHeaderCell": {
+    "prefix": "eui-table-header-cell",
+    "body": ["<TableHeaderCell>$1</TableHeaderCell>$0"]
+  },
+  "TableRow": {
+    "prefix": "eui-table-row",
+    "body": [
+      "<TableRow onSelect={${1:handleSelect}} useCheckbox={${2:useCheckbox}}>",
+      "   $3",
+      "</TableRow>$0"
+    ]
+  },
+  "TextField": {
+    "prefix": "eui-text-field",
+    "body": ["<TextField label=\"${1:label}\" />$0"]
+  },
+  "Toast": {
+    "prefix": "eui-toast",
+    "body": [
+      "<Toast",
+      "   message=\"${1:Type a message}\"",
+      "   actionText=\"${2:Undo}\"",
+      "   position=\"${3|right,left,center|}\"",
+      "   visible={${4:showToast}}",
+      "/>$0"
+    ]
+  },
+  "Toggle": {
+    "prefix": "eui-toggle",
+    "body": ["<Toggle label=\"${1:label}\" />$0"]
+  },
+  "Toolbar": {
+    "prefix": "eui-toolbar",
+    "body": ["<Toolbar activeView=\"${1:default}\">", "   $2", "</Toolbar>$0"]
+  },
+  "ToolbarView": {
+    "prefix": "eui-toolbar-view",
+    "body": ["<Toolbar.View id=\"${1:default}\">", "   $2", "</Toolbar.View>$0"]
+  }
+}

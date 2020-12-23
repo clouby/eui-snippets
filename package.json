@@ -3,6 +3,7 @@
   "displayName": "Emerald UI Snippets",
   "description": "Emerald UI Snippets for VSCode.",
   "icon": "images/icon.png",
+  "publisher": "clouby",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.51.0"

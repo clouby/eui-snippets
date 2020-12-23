@@ -4,7 +4,11 @@
   "description": "Emerald UI Snippets for VSCode.",
   "icon": "images/icon.png",
   "publisher": "clouby",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clouby/eui-snippets.git"
+  },
   "engines": {
     "vscode": "^1.51.0"
   },

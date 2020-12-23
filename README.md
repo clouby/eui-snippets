@@ -1,4 +1,4 @@
-[![Emerald UI](./images/icon.png)](https://docs.emeraldui.com/)
+[![Emerald UI](https://raw.githubusercontent.com/clouby/eui-snippets/main/images/icon.png)](https://docs.emeraldui.com/)
 
 # eui-snippets - 💎
 
@@ -12,7 +12,7 @@ This cool snippets will help you to quickly define your own components related t
 ext install eui-snippets
 ```
 
-[![Emerald UI](images/demo.gif)](###)
+[![Emerald UI](https://raw.githubusercontent.com/clouby/eui-snippets/main/images/demo.gif)](###)
 
 ## Snippets
 
